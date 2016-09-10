@@ -1,5 +1,8 @@
 module.exports = {
-  entry: './src/app',
+  entry: [
+    'babel-polyfill',
+    './src/app'
+  ],
   output: {
     filename: 'bundle.js'
   },
@@ -8,9 +11,10 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
+        exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['react']
+          presets: ['es2015', 'react']
         }
       },
     ]
