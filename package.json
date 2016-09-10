@@ -1,6 +1,6 @@
 {
   "name": "react-starter",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A simple, versioned starter kit for React",
   "scripts": {
     "start": "npm run webpack:watch | live-server",
@@ -20,6 +20,10 @@
   "author": "Van J. Wilson",
   "repository": "https://github.com/vjwilson/react-starter",
   "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-core": "^6.14.0",
