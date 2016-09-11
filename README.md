@@ -30,6 +30,7 @@ For instance,
 
 | Tag | Description |
 | --- | ----------- |
+| v0.4.0 | ESLint for JS linting |
 | v0.3.0 | Require React and ReactDOM in code, instead of script includes from CDN |
 | v0.2.1 | Includes ES2015 (both babel-preset and babel-polyfill) in build |
 | 0.2.0 | Basic webpack build for JS |
