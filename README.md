@@ -30,6 +30,7 @@ For instance,
 
 | Tag | Description |
 | --- | ----------- |
+| v0.5.0 | Add basic skeleton for testing with Mocha/Chai |
 | v0.4.1 | Fix ESLint rules |
 | v0.4.0 | ESLint for JS linting |
 | v0.3.0 | Require React and ReactDOM in code, instead of script includes from CDN |
